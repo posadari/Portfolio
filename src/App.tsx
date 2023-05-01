@@ -5,7 +5,8 @@ import Home from './screens/Home';
 import Experience from './screens/Experience';
 import About from './screens/About';
 import Projects from './screens/Projects';
-
+import Footer
+ from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
           <Projects />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
